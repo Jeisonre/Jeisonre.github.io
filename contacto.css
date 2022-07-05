@@ -1,0 +1,108 @@
+body {
+  margin: 0px;
+  background: url(https://media.datacenterdynamics.com/media/images/coche.width-880.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  font-family: 'Lato', sans-serif;
+}
+
+.nav_container{
+  display: flex;
+  position: fixed;
+  margin-top: -15px;
+  width: 100%;
+  background: #ABB2B9;
+  justify-content: space-between;
+}
+.nav_logo img{
+  width: 70px;
+  padding: 3px;
+}
+.nav_item{
+  display: flex;
+  justify-content: flex-end;
+/*   width: 100%; */
+  text-align:center;
+  align-items: center;
+}
+.nav_item a{
+  text-decoration: none;
+  color: black;
+  padding: 1em;
+  height: fit-content;
+  margin: 0;
+  font-weight: 600;
+}
+.nav_item a:hover{
+  background: #ADFFB0;
+  cursor: pointer;
+}
+
+.container{
+  width: 100%;
+  padding: 5px;
+}
+
+.formulario{
+  background: #fff;
+  margin-top: 150px;
+  padding: 15px;
+}
+
+h1{
+  text-align: center;
+  color: #1a2537;
+  font-size: 40px;
+}
+input[type="text"],
+input[type="mail"]{
+  font-size: 20px;
+  width: 82%;
+  padding: 10px;
+  border: none;
+}
+
+input[type="blog"]{
+  font-size: 20px;
+  width: 82%;
+  padding: 30px;
+  border: none;
+}
+
+.input-container{
+  margin-bottom: 45px;
+  border: 2px solid #aaa;
+  border-radius: 5px;
+}
+.comment-container{
+  margin-bottom: 45px;
+  border: 1px solid #aaa;
+  border-radius: 5px;
+}
+.icon{
+  min-width: 50px;
+  text-align: center;
+}
+.button{
+  border: none;
+  width: 20%;
+  color: white;
+  font-size: 30px;
+  background: #012294;
+  padding: 15px 20px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+.button:hover{
+  background: cadetblue;
+}
+
+@media(min-width:768px)
+{
+  .formulario{
+    margin:auto;
+    width: 800px;
+    margin-top: 100px;
+    border-radius: 2%;
+  }
+}
