@@ -1,16 +1,30 @@
+/* html, */
 body {
-/*   magin: 0px; */
   display: flex;
+/*   margin: 1px; */
   align-items: center;
   justify-content: center;
   flex-direction: column;
   font-family: 'Lato', sans-serif;
 }
 
+.outer {
+  overflow: scroll;
+  margin-top: 20px;
+  padding-left: 40px;
+  padding-right: 5px;
+}
+
+h3{
+  text-align: center;
+  color: #1a2537;
+  font-size: 20px;
+}
+
 .nav_container {
   display: flex;
 /*   position: fixed; */
-  magin-top: -15px;
+  magin-top: 4px;
   width: 100%;
   background: #ABB2B9;
   justify-content: space-between;
@@ -18,8 +32,8 @@ body {
 .nav_item{
   display: flex;
   justify-content: flex-end;
-  width: 30%;
-  text-align:center;
+/*   width: 30%; */
+  text-align: center;
   align-items: center;
 }
 .nav_logo img{
@@ -31,7 +45,7 @@ body {
   color: black;
   padding: 1em;
   height: fit-content;
-  margin: 0;
+  margin: 0px;
   font-weight: 600;
 }
 .nav_item a:hover{
@@ -42,12 +56,12 @@ body {
 .text{
   font-size: 5em;
   font-family: 'Lato', sans-serif;
-  width: 1400px;
+  width: 400px;
   min-height: 100px;
-  padding: 20px;
-  margin: 20px auto;
+  padding: 10px;
+  margin: 10px auto;
   text-align: center;
-  border: 10px solid blue;
+  border: 5px solid blue;
   border-radius: 30px;
   animation-fill-mode: forwards;
   animation: color-change 2s infinite;
@@ -81,7 +95,7 @@ body {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  margin-top: 20px
+  margin-top: 20px;
 }
 
 .gallery-item {
@@ -94,4 +108,10 @@ body {
   border-radius: 8px;
   padding: 20px;
   background: red;
+}
+
+@media only screen and (min-width: 320px) and (max-width:480px), (orientation:portrait){
+  .gallery-item .thumbnail{
+    width:95%;
+  }
 }
