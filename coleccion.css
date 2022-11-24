@@ -1,7 +1,7 @@
 /* html, */
 body {
   display: flex;
-/*   margin: 1px; */
+  /* margin: 0; */
   align-items: center;
   justify-content: center;
   flex-direction: column;
@@ -24,7 +24,7 @@ h3{
 .nav_container {
   display: flex;
 /*   position: fixed; */
-  magin-top: 4px;
+  margin-top: 4px;
   width: 100%;
   background: #ABB2B9;
   justify-content: space-between;
