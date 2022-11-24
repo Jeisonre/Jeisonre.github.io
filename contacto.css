@@ -21,7 +21,7 @@ body {
 .nav_item{
   display: flex;
   justify-content: flex-end;
-/*   width: 100%; */
+  /* width: 100%; */
   text-align:center;
   align-items: center;
 }
@@ -46,7 +46,7 @@ body {
 .formulario{
   background: #fff;
   margin-top: 150px;
-  padding: 5px;
+  padding: 1px;
 }
 
 h1{
@@ -55,16 +55,17 @@ h1{
   font-size: 40px;
 }
 input[type="text"],
-input[type="mail"]{
+input[type="mail"],
+input[type="number"]{
   font-size: 20px;
-  width: 50%;
+  width: 90%;
   padding: 10px;
   border: none;
 }
 
 input[type="blog"]{
   font-size: 20px;
-  width: 82%;
+  width: 85%;
   padding: 30px;
   border: none;
 }
