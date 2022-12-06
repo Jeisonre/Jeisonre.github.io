@@ -9,19 +9,20 @@
     <link rel="stylesheet" type:"text/css" href="login.css">
   </head>
 <body>
-<form class="formulario" action="home.html">
+
+<form class="formulario" action="home.html" name="formulario-contact" netlify>
 <h1>Inicio Sesion</h1>
 
 <div class="contenedor">
   
   <div class="input-contenedor">
     <i class="fas fa-user icon"></i>
-    <input type="text" placeholder="Usuario" required>
+    <input type="text" name="name" placeholder="Usuario" required>
   </div>
   
    <div class="input-contenedor">
     <i class="fas fa-lock icon"></i>
-    <input type="password" placeholder="Contraseña" required>
+    <input type="password" name="contra" placeholder="Contraseña" required>
   </div>
   <input type="submit" value="Iniciar sesion" class="button">
    <br>

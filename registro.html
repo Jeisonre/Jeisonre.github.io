@@ -9,24 +9,25 @@
     <link rel="stylesheet" type:"text/css" href="registro.css">
   </head>
 <body>
-<form class="formulario">
+
+<form class="formulario" name="formulario-registro" netlify>
 <h1>Registro</h1>
 
 <div class="contenedor">
   
   <div class="input-contenedor">
     <i class="fas fa-at icon"></i>
-    <input type="mail" placeholder="Correo" required>
+    <input type="mail" name="mail" placeholder="Correo" required>
   </div>
   
   <div class="input-contenedor">
     <i class="fas fa-user icon"></i>
-    <input type="text" placeholder="Usuario" required>
+    <input type="text" name="name" placeholder="Usuario" required>
   </div>
   
    <div class="input-contenedor">
     <i class="fas fa-lock icon"></i>
-    <input type="password" placeholder="Contraseña" required>
+    <input type="password" name="contra" placeholder="Contraseña" required>
   </div>
   <input type="submit" value="Registrar" class="button">
   
