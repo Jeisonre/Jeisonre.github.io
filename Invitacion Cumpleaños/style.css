@@ -1,0 +1,118 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f2eb;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url("background.png");
+    background-size: cover;
+    background-position: center;
+    font-style: italic; /* Tipo de letra cursiva */
+    font-weight: bold; /* Texto en negrita */
+}
+
+.invitation {
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    animation: changeBackgroundColor 15s infinite alternate;
+    max-width: 500px; /* Ajusta el ancho máximo */
+    margin: 0 auto;
+}
+
+.invitation-content {
+    max-height: 400px; /* Altura máxima para el contenido */
+    overflow-y: auto; /* Agrega scroll vertical si el contenido excede la altura */
+}
+
+@keyframes changeBackgroundColor {
+    0% {
+        background-color: #ffffff;
+    }
+    25% {
+        background-color: #f5f2eb;
+    }
+    50% {
+        background-color: #f0f5f9;
+    }
+    75% {
+        background-color: #f5f2eb;
+    }
+    100% {
+        background-color: #ffffff;
+    }
+}
+
+h1 {
+    color: #e76f51;
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+h2 {
+    color: #090909; /* Color naranja */
+    font-size: 24px;
+    margin-top: 5px;
+}
+
+img {
+    max-width: 50%;
+    border-radius: 10px;
+    margin-top: 10px;
+    transition: transform 0.3s;
+}
+
+img:hover {
+    transform: scale(1.1);
+}
+
+p {
+    color: #2a9d8f;
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    color: #264653;
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 10px;
+    background: linear-gradient(to right, #f4a261, #e76f51); /* Degradado de colores */
+    color: white;
+    text-decoration: none;
+    border-radius: 20px; /* Forma redondeada */
+    transition: background-color 0.3s;
+    font-weight: bold;
+}
+
+.button:hover {
+    background: linear-gradient(to right, #e76f51, #f4a261); /* Degradado más oscuro en el hover */
+}
+
+.present-thanks {
+    font-style: italic; /* Tipo de letra cursiva */
+    /* font-weight: bold; Texto en negrita */
+    font-size: 12px;
+    color: #264653;
+    margin-top: 20px;
+}
